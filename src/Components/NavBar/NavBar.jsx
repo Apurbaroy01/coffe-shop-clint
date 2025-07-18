@@ -1,13 +1,26 @@
-
+import { FaBell } from "react-icons/fa6";
+import Nav from "./Nav";
 
 const NavBar = () => {
     return (
         <div className="w-full">
             <div>
-                <div className="flex items-center justify-center bg-amber-700">
-                    <img className="w-10 h-auto" src="/src/assets/logo1.png" alt="" />
-                    <h2 className=" text-2xl text-white font-bold">Coffee Shop</h2>
-                </div>
+                <Nav></Nav>
+
+
+                {/* <div className=" bg-amber-700 flex justify-between px-5">
+                    <div>
+
+                    </div>
+                    <div className="flex items-center justify-center">
+                        <img className="w-10 h-auto" src="/src/assets/logo1.png" alt="" />
+                        <h2 className=" text-2xl text-white font-bold">Coffee Shop</h2>
+                    </div>
+                    <div className="text-white text-3xl flex items-center">
+                        <FaBell />
+                    </div>
+
+                </div> */}
                 <div
                     className="hero h-90 w-full"
                     style={{
@@ -56,7 +69,7 @@ const NavBar = () => {
                         <h2>Awesome Aroma</h2>
                         <p className="text-sm">You will definitely be a fan of the design & aroma of your coffee</p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
