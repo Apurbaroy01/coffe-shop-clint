@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
     const [coffee, setCoffee] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/coffee')
+        fetch('https://cofee-store-server-neon.vercel.app/coffee')
             .then(res => res.json())
             .then(data => {
                 setCoffee(data)

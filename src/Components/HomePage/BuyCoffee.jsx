@@ -18,7 +18,7 @@ const BuyCoffee = () => {
 
         console.log("✅ Order Submitted:", coffe);
 
-        fetch('http://localhost:5000/oders', {
+        fetch('https://cofee-store-server-neon.vercel.app/oders', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

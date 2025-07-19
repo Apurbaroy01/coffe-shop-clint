@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
+import logo from '../../assets/icons/logo1.png'
 
 
 
 const Nav = () => {
     const [oders, setOders] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/oders')
+        fetch('https://cofee-store-server-neon.vercel.app/oders')
             .then(res => res.json())
             .then(data => {
                 // console.log(data)
@@ -16,7 +17,7 @@ const Nav = () => {
         <div className="navbar bg-base-100 shadow-sm">
             <div className="flex-1">
                 <div className="flex justify-center items-center">
-                    <img className="w-10 h-auto" src="/src/assets/logo1.png" alt="" />
+                    <img className="w-10 h-auto" src={logo} alt="" />
                     <h2 className=" text-2xl font-bold">Coffee Shop</h2>
                 </div>
             </div>

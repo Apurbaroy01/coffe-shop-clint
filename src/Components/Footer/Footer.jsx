@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="mt-8 text-left">
             <h3 className="text-xl font-bold mb-2 text-[#331A15]">Get in Touch</h3>
             <p className="flex items-center gap-2 mb-1"><FaPhone /> +88 01876*****78</p>
-            <p className="flex items-center gap-2 mb-1"><FaEnvelope /> apurba00011@gmail.com</p>
+            <p className="flex items-center gap-2 mb-1"><FaEnvelope /> apurbaroy00011@gmail.com</p>
             <p className="flex items-center gap-2"><FaMapMarkerAlt /> BoiKali, Khalishpur, Khulna</p>
           </div>
         </div>

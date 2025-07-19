@@ -16,7 +16,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/buyCoffee/:id",
-    loader:({params})=>fetch(`http://localhost:5000/coffee/${params.id}`),
+    loader:({params})=>fetch(`https://cofee-store-server-neon.vercel.app/coffee/${params.id}`),
     element: <BuyCoffee></BuyCoffee>,
   },
 ]);

@@ -1,5 +1,10 @@
 import { FaBell } from "react-icons/fa6";
 import Nav from "./Nav";
+import headerPhoto from "../../assets/icons/header.png"
+import photo1 from "../../assets/icons/1.png"
+import photo2 from "../../assets/icons/2.png"
+import photo3 from "../../assets/icons/3.png"
+import photo4 from "../../assets/icons/4.png"
 
 const NavBar = () => {
     return (
@@ -25,7 +30,7 @@ const NavBar = () => {
                     className="hero h-90 w-full"
                     style={{
                         backgroundImage:
-                            "url(src/assets/header.png)",
+                            `url(${headerPhoto})`,
                     }}
                 >
                     <div className="hero-overlay justify-end"></div>
@@ -43,28 +48,28 @@ const NavBar = () => {
                 <div className="flex flex-row items-center text-center p-4 bg-gray-200 gap-10">
                     <div>
                         <div className="flex justify-center">
-                            <img src="/src/assets/icons/1.png" alt="" />
+                            <img src={photo1} alt="" />
                         </div>
                         <h2>Awesome Aroma</h2>
                         <p className="text-sm">You will definitely be a fan of the design & aroma of your coffee</p>
                     </div>
                     <div >
                         <div className="flex justify-center">
-                            <img src="/src/assets/icons/2.png" alt="" />
+                            <img src={photo2} alt="" />
                         </div>
                         <h2>Awesome Aroma</h2>
                         <p className="text-sm">You will definitely be a fan of the design & aroma of your coffee</p>
                     </div>
                     <div >
                         <div className="flex justify-center">
-                            <img src="/src/assets/icons/3.png" alt="" />
+                            <img src={photo3} alt="" />
                         </div>
                         <h2>Awesome Aroma</h2>
                         <p className="text-sm">You will definitely be a fan of the design & aroma of your coffee</p>
                     </div>
                     <div >
                         <div className="flex justify-center">
-                            <img src="/src/assets/icons/4.png" alt="" />
+                            <img src={photo4} alt="" />
                         </div>
                         <h2>Awesome Aroma</h2>
                         <p className="text-sm">You will definitely be a fan of the design & aroma of your coffee</p>
